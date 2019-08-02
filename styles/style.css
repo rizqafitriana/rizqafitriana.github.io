@@ -1,0 +1,304 @@
+/* Start body */
+body {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+
+}
+/* End body */
+
+/* Start Debug */
+.bg-blue{
+    background-color: brown
+}
+
+.bg-red{
+    background-color: rgb(255, 193, 35)
+}
+/* End Debug */
+
+/* Start Container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+.container-full {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+/* End Container */
+
+/* Start Logo */
+.logo {
+    text-align: center;
+}
+/* End Logo */
+
+
+/* Start Anchor / Hyperlink */
+a:link,
+a:visited {
+    color: rgb(218, 27, 27);
+    text-decoration: none;
+
+}
+a:hover,
+a:active {
+    color: rgb(61, 2, 2);
+    text-decoration: underline
+}
+/* End Anchor / Hyperlink */
+
+/* Start Menu Primer */
+.menu-primer ul{
+    text-align: center;
+    background-color:rgb(253, 137, 5);
+    border-radius: 4px;
+    box-shadow: 
+        0 3px 5px -1px rgba(0, 0, 0, 2),
+        0 6px 10px 0 rgba(0, 0, 0, 14),
+        0 1px 18px 0 rgba(0, 0, 0, 12),
+
+    }
+
+
+.menu-tengah{
+    margin: 0px auto;
+}
+
+.menu-primer li{
+   
+    border-right: 1px solid white;
+    display: inline-block;
+}
+
+.menu-primer a {
+    color: white;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 50px;
+    text-transform: uppercase;
+}
+.menu-primer a:hover {
+    background-color: rgb(231, 230, 213);
+    color: black;
+    text-decoration: none;
+}
+.menu-primer .active{
+    background-color: rgb(247, 247, 247);
+    color: black;
+    text-decoration: none;
+}
+
+/* End Menu Primer */
+
+/* Start Wow factor */
+
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+    }
+    
+    body { margin: 0; } 
+    div#slider { overflow: hidden; }
+    div#slider figure img { width: 20%; float: left; }
+    div#slider figure { 
+      position: relative;
+      width: 480%;
+      margin: 0;
+      left: 0;
+      text-align: left;
+      font-size: 0;
+      animation: 30s slidy infinite; 
+      
+    }    
+
+/* End Wow Factor */
+
+/* Start Heading */
+h1, h2, h3,h4,h5, h6 {
+    font-weight: 400;
+    letter-spacing: 1px;
+
+}
+h1 {
+    font-size: 28px
+}
+h2 {
+    font-size: 24px
+}
+h3 {
+    font-size: 18px
+}
+h4 {
+    font-size: 16px
+}
+h5 {
+    font-size: 14px
+}
+h6 {
+    font-size: 13px
+}
+
+/* End Heading */
+
+/* Start Jumbotron */
+.jumbotron {
+    background-color: rgb(211, 92, 12);
+    border: 1px solid rgb(197, 197, 53);
+    border-radius: 4px;
+    padding: 20px 0;
+}
+.jumbotron h1 {
+    font-size: 32px;
+    padding: 0 20px;
+}
+.jumbotron h3 {
+    font-size: 20px;
+    padding: 0 20px;
+}
+
+
+/* End Jumbotron */
+
+/* Start Box */
+/* End Box */
+
+/* Start Menu Sekunder */
+.menu-sekunder {
+    text-align: center;
+    background-color: rgb(253, 234, 128);
+    border-bottom: 1px solid #eaecef;
+    border-top: 1px solid #eaecef;
+    overflow: auto;
+    padding: 10px 10px;
+}
+.menu-sekunder h4 {
+    font-size: 14px;
+    
+}
+/* End Menu Sekunder */
+
+/* Start Wow Factor */
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+.snip1584 {
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: left;
+}
+.snip1584 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.snip1584:before {
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  top: 100%;
+  content: '';
+  background-color: rgba(51, 51, 51, 0.9);
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  -webkit-transition-delay: 0.25s;
+  transition-delay: 0.25s;
+}
+.snip1584 img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+.snip1584 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.snip1584 h3,
+.snip1584 h5 {
+  margin: 0;
+  opacity: 0;
+  letter-spacing: 1px;
+}
+.snip1584 h3 {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  text-transform: uppercase;
+  font-weight: 400;
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+  margin-bottom: 5px;
+}
+.snip1584 h5 {
+  font-weight: normal;
+  background-color: #ae895d;
+  padding: 3px 10px;
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.snip1584 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.snip1584:hover:before,
+.snip1584.hover:before {
+  top: 10px;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.snip1584:hover h3,
+.snip1584.hover h3,
+.snip1584:hover h5,
+.snip1584.hover h5 {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+}
+.snip1584:hover h3,
+.snip1584.hover h3 {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+.snip1584:hover h5,
+.snip1584.hover h5 {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+/* End Wow Factor */
