@@ -1,12 +1,13 @@
 /* Start body */
 body {
-    background-color: rgb(255, 255, 255);
-    color: black;
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     font-family: Verdana, Geneva, sans-serif;
     font-size: 16px;
     line-height: 1.5em;
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 10px;
+   
 
 }
 /* End body */
@@ -17,7 +18,8 @@ body {
 }
 
 .bg-red{
-    background-color: rgb(255, 193, 35)
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
 }
 /* End Debug */
 
@@ -101,31 +103,75 @@ a:active {
 
 /* Start Wow factor */
 
-@keyframes slidy {
-    0% { left: 0%; }
-    20% { left: 0%; }
-    25% { left: -100%; }
-    45% { left: -100%; }
-    50% { left: -200%; }
-    70% { left: -200%; }
-    75% { left: -300%; }
-    95% { left: -300%; }
-    100% { left: -400%; }
-    }
-    
-    body { margin: 0; } 
-    div#slider { overflow: hidden; }
-    div#slider figure img { width: 20%; float: left; }
-    div#slider figure { 
-      position: relative;
-      width: 480%;
-      margin: 0;
-      left: 0;
-      text-align: left;
-      font-size: 0;
-      animation: 30s slidy infinite; 
-      
-    }    
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600;);
+.snip1571 {
+  background-color: #000;
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  margin: 30px;
+  max-width: 315px;
+  min-width: 230px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+.snip1571 *,
+.snip1571 *:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1571 img {
+  backface-visibility: hidden;
+  max-width: 100%;
+  vertical-align: top;
+}
+.snip1571 figcaption {
+  bottom: 30px;
+  left: 0;
+  position: absolute;
+  z-index: 0;
+}
+.snip1571 figcaption:before {
+  background-color: #ffffff;
+  bottom: -5px;
+  content: '';
+  left: 0;
+  position: absolute;
+  right: 100%;
+  top: -5px;
+  z-index: -1;
+}
+.snip1571 h3 {
+  background-color: #c73232;
+  color: #ffffff;
+  font-size: 0.9em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 10px 10px;
+  text-transform: uppercase;
+  z-index: 1;
+}
+.snip1571 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.snip1571:hover > img,
+.snip1571.hover > img {
+  opacity: 0.1;
+}
+.snip1571:hover figcaption:before,
+.snip1571.hover figcaption:before {
+  right: -5px;
+}   
 
 /* End Wow Factor */
 
